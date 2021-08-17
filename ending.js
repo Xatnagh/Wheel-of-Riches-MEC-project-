@@ -10,7 +10,7 @@ $(document).ready(function(){
 		},5000)
 	})
   setTimeout(function() {
-      window.location = "https://paulsonjeanty.github.io/";
+      $("#rickroll").show();
      }, 7000);
 })
 function playsound(id){
