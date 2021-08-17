@@ -37,7 +37,12 @@ color:yellow;
 	left: 150px;
 	bottom: 0px;
 }
-
+#rickroll{
+display:none;
+margin-left: 200px;
+margin-top:200px;
+position:absolute;
+}
 
 #startbtn{
 	height:80px !important;
