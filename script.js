@@ -87,7 +87,7 @@ let wheel = new Wheel({
 
 let game = {
 	answer: "morty_rick",
-	randomAnswer:["morty_rick","pickle_rick","birdperson","portal_gun","summer","portal","scientist","Meeseeks"],
+	randomAnswer:["pickle_rick","birdperson","portal_gun","summer","portal","scientist","Meeseeks"],
 	money:0,
 	currentprize:0,
 	canGuessLetter:false,
