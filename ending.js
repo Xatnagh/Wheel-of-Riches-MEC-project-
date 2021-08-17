@@ -1,5 +1,8 @@
 $(document).ready(function(){
 	$(this).click(function(){
+		 setTimeout(function() {
+		      $("#rickroll").show();
+		 }, 7000);
 		playsound("#victorysound");
 		$("#cofefe").show()
 		let width = $("html").width();
@@ -9,9 +12,7 @@ $(document).ready(function(){
 			left: "+="+move
 		},5000)
 	})
-  setTimeout(function() {
-      $("#rickroll").show();
-     }, 7000);
+ 
 })
 function playsound(id){
 	$(id)[0].pause();
