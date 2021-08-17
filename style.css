@@ -13,6 +13,7 @@ position: absolute;
 bottom:0;
 right:50px;
 font-weight: bold;
+color:yellow;
 }
 #firstpagecontent{
 	text-align: center;
@@ -25,8 +26,6 @@ font-weight: bold;
 }
 #ground{
 	width:100vw;
-  position: absolute;
-  bottom:0px;
 }
 #groundimg{
 	width:100%;
